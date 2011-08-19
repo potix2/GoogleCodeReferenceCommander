@@ -36,7 +36,6 @@
     if ( e.keyCode == 13 ) {
       //Enter
       hideSearchBox();
-      console.log(e.target.value);
       search(e.target.value);
     }
   }
